@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Data>
+    <Series>
+        <id>72218</id>
+        <Actors>|Tom Welling|Erica Durance|Michael Rosenbaum|Allison Mack|Kristin Kreuk|Sam Witwer|Justin Hartley|Cassidy Freeman|Laura Vandervoort|Aaron Ashmore|Eric Johnson|John Glover|Jensen Ackles|John Schneider|Samuel L. Jones|Annette O'Toole|Callum Blue|Alaina Huffman|Alan Ritchson|Phil Morris|Lee Thompson Young|Kyle Gallner|James Marsters|Alessandro Juliani|</Actors>
+        <Airs_DayOfWeek>Friday</Airs_DayOfWeek>
+        <Airs_Time>8:00 PM</Airs_Time>
+        <ContentRating>TV-14</ContentRating>
+
+        <FirstAired>2001-10-16</FirstAired>
+        <Genre>|Drama|Science-Fiction|</Genre>
+        <IMDB_ID>tt0279600</IMDB_ID>
+        <Language>en</Language>
+        <Network>The CW</Network>
+        <NetworkID></NetworkID>
+
+        <Overview>Smallville revolves around Clark Kent...</Overview>
+        <Rating>8.4</Rating>
+        <RatingCount>134</RatingCount>
+        <Runtime>60</Runtime>
+        <SeriesID>1718</SeriesID>
+        <SeriesName>Smallville</SeriesName>
+
+        <Status>Continuing</Status>
+        <added></added>
+        <addedBy></addedBy>
+        <banner>graphical/72218-g22.jpg</banner>
+        <fanart>fanart/original/72218-82.jpg</fanart>
+        <lastupdated>1296311754</lastupdated>
+        <poster>posters/72218-16.jpg</poster>
+
+        <zap2it_id>SH462144</zap2it_id>
+    </Series>
+</Data>

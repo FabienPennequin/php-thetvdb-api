@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Data>
+    <Series>
+        <seriesid>71394</seriesid>
+        <language>en</language>
+        <SeriesName>The Cape</SeriesName>
+        <banner>graphical/71394-g.jpg</banner>
+        <FirstAired>1996-09-01</FirstAired>
+        <zap2it_id>SH189638</zap2it_id>
+        <id>71394</id>
+    </Series>
+    <Series>
+        <seriesid>160671</seriesid>
+        <language>en</language>
+        <SeriesName>The Cape (2011)</SeriesName>
+        <banner>graphical/160671-g.jpg</banner>
+        <Overview>The Cape follows an innocent cop who has been framed for a crime he did not commit...</Overview>
+        <FirstAired>2011-01-09</FirstAired>
+        <IMDB_ID>tt1593823</IMDB_ID>
+        <zap2it_id>SH01279165</zap2it_id>
+        <id>160671</id>
+    </Series>
+</Data>

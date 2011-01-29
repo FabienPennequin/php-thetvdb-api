@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Data>
+    <Episode>
+        <id>77817</id>
+        <seasonid>3707</seasonid>
+        <EpisodeNumber>1</EpisodeNumber>
+        <EpisodeName>Pilot</EpisodeName>
+        <FirstAired>2001-10-16</FirstAired>
+        <GuestStars>Sarah Jane Redmond|Jeremy Creek|Jade Unterman|Malkolm Alburquenque|Matthew Munn|Dee Jay Jackson|Alvin Sanders|Steve Bacic|Justin Chatwin|Wendy Chmelauskas|Ben Odberg|Amy Esterle|Miranda Cosgrove|John Glover</GuestStars>
+        <Director>|David Nutter|</Director>
+        <Writer>|Alfred Gough|Miles Millar|</Writer>
+        <Overview>The first episode tells the story of the meteor shower that hit Smallville and changed life in the Kansas town forever.</Overview>
+        <ProductionCode>475165</ProductionCode>
+        <lastupdated>1287306785</lastupdated>
+        <flagged>0</flagged>
+        <DVD_discid></DVD_discid>
+        <DVD_season></DVD_season>
+        <DVD_episodenumber></DVD_episodenumber>
+        <DVD_chapter></DVD_chapter>
+        <absolute_number>1</absolute_number>
+        <filename>episodes/72218/77817.jpg</filename>
+        <seriesid>72218</seriesid>
+        <mirrorupdate>2010-10-17 02:13:05</mirrorupdate>
+        <IMDB_ID></IMDB_ID>
+        <EpImgFlag>2</EpImgFlag>
+        <Rating>7.6</Rating>
+        <SeasonNumber>1</SeasonNumber>
+        <Language>en</Language>
+    </Episode>
+</Data>

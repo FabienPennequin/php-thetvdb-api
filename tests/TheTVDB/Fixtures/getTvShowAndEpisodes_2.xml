@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Data>
+    <Series>
+        <id>72218</id>
+        <Actors>|Tom Welling|Erica Durance|Michael Rosenbaum|Allison Mack|Kristin Kreuk|Sam Witwer|Justin Hartley|Cassidy Freeman|Laura Vandervoort|Aaron Ashmore|Eric Johnson|John Glover|Jensen Ackles|John Schneider|Samuel L. Jones|Annette O'Toole|Callum Blue|Alaina Huffman|Alan Ritchson|Phil Morris|Lee Thompson Young|Kyle Gallner|James Marsters|Alessandro Juliani|</Actors>
+        <Airs_DayOfWeek>Friday</Airs_DayOfWeek>
+        <Airs_Time>8:00 PM</Airs_Time>
+        <ContentRating>TV-14</ContentRating>
+
+        <FirstAired>2001-10-16</FirstAired>
+        <Genre>|Drama|Science-Fiction|</Genre>
+        <IMDB_ID>tt0279600</IMDB_ID>
+        <Language>en</Language>
+        <Network>The CW</Network>
+        <NetworkID></NetworkID>
+
+        <Overview>Smallville revolves around Clark Kent (Tom Welling) and his burgeoning career at the Daily Planet alongside his future love, Lois Lane (Erica Durance). He's supported by his friends, Chloe Sullivan (Allison Mack) and Oliver Queen (aka Green Arrow) (Justin Hartley) as they deal with Lex Luthor's replacement, Tess Mercer (Cassidy Freeman), who initially unleashed a new world of danger in alliance with Major Zod (Callum Blue), a survivor of the doomed planet of Krypton, but has since become a sometimes ally of Clark's.</Overview>
+        <Rating>8.4</Rating>
+        <RatingCount>134</RatingCount>
+        <Runtime>60</Runtime>
+        <SeriesID>1718</SeriesID>
+        <SeriesName>Smallville</SeriesName>
+
+        <Status>Continuing</Status>
+        <added></added>
+        <addedBy></addedBy>
+        <banner>graphical/72218-g22.jpg</banner>
+        <fanart>fanart/original/72218-82.jpg</fanart>
+        <lastupdated>1296311754</lastupdated>
+        <poster>posters/72218-16.jpg</poster>
+
+        <zap2it_id>SH462144</zap2it_id>
+    </Series>
+    <Episode>
+        <id>334471</id>
+        <Combined_episodenumber>1</Combined_episodenumber>
+        <Combined_season>0</Combined_season>
+        <DVD_chapter></DVD_chapter>
+        <DVD_discid></DVD_discid>
+
+        <DVD_episodenumber></DVD_episodenumber>
+        <DVD_season></DVD_season>
+        <Director></Director>
+        <EpImgFlag></EpImgFlag>
+        <EpisodeName>Unaired Pilot</EpisodeName>
+        <EpisodeNumber>1</EpisodeNumber>
+        <FirstAired></FirstAired>
+        <GuestStars></GuestStars>
+
+        <IMDB_ID></IMDB_ID>
+        <Language>en</Language>
+        <Overview></Overview>
+        <ProductionCode></ProductionCode>
+        <Rating></Rating>
+        <RatingCount>0</RatingCount>
+        <SeasonNumber>0</SeasonNumber>
+
+        <Writer></Writer>
+        <absolute_number></absolute_number>
+        <airsafter_season></airsafter_season>
+        <airsbefore_episode>1</airsbefore_episode>
+        <airsbefore_season>1</airsbefore_season>
+        <filename>episodes/72218/334471.jpg</filename>
+        <lastupdated>1269381668</lastupdated>
+
+        <seasonid>19685</seasonid>
+        <seriesid>72218</seriesid>
+    </Episode>
+    <Episode>
+        <id>406043</id>
+        <Combined_episodenumber>2</Combined_episodenumber>
+        <Combined_season>0</Combined_season>
+
+        <DVD_chapter></DVD_chapter>
+        <DVD_discid></DVD_discid>
+        <DVD_episodenumber></DVD_episodenumber>
+        <DVD_season></DVD_season>
+        <Director></Director>
+        <EpImgFlag>3</EpImgFlag>
+        <EpisodeName>Producing Smallville</EpisodeName>
+        <EpisodeNumber>2</EpisodeNumber>
+
+        <FirstAired></FirstAired>
+        <GuestStars></GuestStars>
+        <IMDB_ID></IMDB_ID>
+        <Language>en</Language>
+        <Overview>A featurette made after the production of season 3, explaining the design decisions in creating the locales and characters of the series, and includes interviews with many of the cast and crew.</Overview>
+        <ProductionCode></ProductionCode>
+        <Rating></Rating>
+        <RatingCount>0</RatingCount>
+
+        <SeasonNumber>0</SeasonNumber>
+        <Writer></Writer>
+        <absolute_number></absolute_number>
+        <airsafter_season></airsafter_season>
+        <airsbefore_episode></airsbefore_episode>
+        <airsbefore_season></airsbefore_season>
+        <filename>episodes/72218/406043.jpg</filename>
+        <lastupdated>1264003143</lastupdated>
+
+        <seasonid>19685</seasonid>
+        <seriesid>72218</seriesid>
+    </Episode>
+    <Episode>
+        <id>77817</id>
+        <Combined_episodenumber>1</Combined_episodenumber>
+        <Combined_season>1</Combined_season>
+
+        <DVD_chapter></DVD_chapter>
+        <DVD_discid></DVD_discid>
+        <DVD_episodenumber></DVD_episodenumber>
+        <DVD_season></DVD_season>
+        <Director>|David Nutter|</Director>
+        <EpImgFlag>2</EpImgFlag>
+        <EpisodeName>Pilot</EpisodeName>
+
+        <EpisodeNumber>1</EpisodeNumber>
+        <FirstAired>2001-10-16</FirstAired>
+        <GuestStars>Sarah Jane Redmond|Jeremy Creek|Jade Unterman|Malkolm Alburquenque|Matthew Munn|Dee Jay Jackson|Alvin Sanders|Steve Bacic|Justin Chatwin|Wendy Chmelauskas|Ben Odberg|Amy Esterle|Miranda Cosgrove|John Glover</GuestStars>
+        <IMDB_ID></IMDB_ID>
+        <Language>en</Language>
+        <Overview>The first episode tells the story of the meteor shower that hit Smallville and changed life in the Kansas town forever. Clark Kent meets Lex Luthor for the first time and encounters the first in a long line of humans mutated the strange green meteor rocks that accompanied him on his journey to Earth.</Overview>
+
+        <ProductionCode>475165</ProductionCode>
+        <Rating>7.6</Rating>
+        <RatingCount>13</RatingCount>
+        <SeasonNumber>1</SeasonNumber>
+        <Writer>|Alfred Gough|Miles Millar|</Writer>
+        <absolute_number>1</absolute_number>
+
+        <filename>episodes/72218/77817.jpg</filename>
+        <lastupdated>1287306785</lastupdated>
+        <seasonid>3707</seasonid>
+        <seriesid>72218</seriesid>
+    </Episode>
+    <Episode>
+        <id>77818</id>
+
+        <Combined_episodenumber>2</Combined_episodenumber>
+        <Combined_season>1</Combined_season>
+        <DVD_chapter></DVD_chapter>
+        <DVD_discid></DVD_discid>
+        <DVD_episodenumber></DVD_episodenumber>
+        <DVD_season></DVD_season>
+        <Director>|David Nutter|</Director>
+
+        <EpImgFlag></EpImgFlag>
+        <EpisodeName>Metamorphosis</EpisodeName>
+        <EpisodeNumber>2</EpisodeNumber>
+        <FirstAired>2001-10-23</FirstAired>
+        <GuestStars>Gabrielle Rose|Chad E. Donella</GuestStars>
+        <IMDB_ID></IMDB_ID>
+        <Language>en</Language>
+
+        <Overview>Clark must deal with Greg, a nerdish bug collector with a crush on Lana who gains the ability of various insects and uses them to lash out at anyone who opposes him.</Overview>
+        <ProductionCode>227601</ProductionCode>
+        <Rating>7.0</Rating>
+        <RatingCount>10</RatingCount>
+        <SeasonNumber>1</SeasonNumber>
+        <Writer>|Alfred Gough|Miles Millar|</Writer>
+
+        <absolute_number>2</absolute_number>
+        <filename>episodes/72218/77818.jpg</filename>
+        <lastupdated>1280608440</lastupdated>
+        <seasonid>3707</seasonid>
+        <seriesid>72218</seriesid>
+    </Episode>
+    <Episode>
+        <id>77819</id>
+        <Combined_episodenumber>3</Combined_episodenumber>
+        <Combined_season>1</Combined_season>
+        <DVD_chapter></DVD_chapter>
+        <DVD_discid></DVD_discid>
+        <DVD_episodenumber></DVD_episodenumber>
+        <DVD_season></DVD_season>
+
+        <Director>|Greg Beeman|</Director>
+        <EpImgFlag></EpImgFlag>
+        <EpisodeName>Hothead</EpisodeName>
+        <EpisodeNumber>3</EpisodeNumber>
+        <FirstAired>2001-10-30</FirstAired>
+        <GuestStars>Jason Connery|Sarah Jane Redmond|Hiro Kanagawa|David Paetkau|Dan Lauria</GuestStars>
+
+        <IMDB_ID></IMDB_ID>
+        <Language>en</Language>
+        <Overview>An abusive and hot-tempered football coach gains the ability to control and project fire.</Overview>
+        <ProductionCode>227603</ProductionCode>
+        <Rating>7.0</Rating>
+        <RatingCount>8</RatingCount>
+
+        <SeasonNumber>1</SeasonNumber>
+        <Writer>|Greg Walker|</Writer>
+        <absolute_number>3</absolute_number>
+        <filename>episodes/72218/77819.jpg</filename>
+        <lastupdated>1280608449</lastupdated>
+        <seasonid>3707</seasonid>
+
+        <seriesid>72218</seriesid>
+    </Episode>
+</Data>

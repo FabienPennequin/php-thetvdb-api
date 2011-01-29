@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Data>
+    <Series>
+        <id>72218</id>
+        <Actors>|Tom Welling|Erica Durance|Michael Rosenbaum|Allison Mack|Kristin Kreuk|Sam Witwer|Justin Hartley|Cassidy Freeman|Laura Vandervoort|Aaron Ashmore|Eric Johnson|John Glover|Jensen Ackles|John Schneider|Samuel L. Jones|Annette O'Toole|Callum Blue|Alaina Huffman|Alan Ritchson|Phil Morris|Lee Thompson Young|Kyle Gallner|James Marsters|Alessandro Juliani|</Actors>
+        <Airs_DayOfWeek>Friday</Airs_DayOfWeek>
+        <Airs_Time>8:00 PM</Airs_Time>
+        <ContentRating>TV-14</ContentRating>
+
+        <FirstAired>2001-10-16</FirstAired>
+        <Genre>|Drama|Science-Fiction|</Genre>
+        <IMDB_ID>tt0279600</IMDB_ID>
+        <Language>en</Language>
+        <Network>The CW</Network>
+        <NetworkID></NetworkID>
+
+        <Overview>Smallville revolves around Clark Kent...</Overview>
+        <Rating>8.4</Rating>
+        <RatingCount>134</RatingCount>
+        <Runtime>60</Runtime>
+        <SeriesID>1718</SeriesID>
+        <SeriesName>Smallville</SeriesName>
+
+        <Status>Continuing</Status>
+        <added></added>
+        <addedBy></addedBy>
+        <banner>graphical/72218-g22.jpg</banner>
+        <fanart>fanart/original/72218-82.jpg</fanart>
+        <lastupdated>1296311754</lastupdated>
+        <poster>posters/72218-16.jpg</poster>
+
+        <zap2it_id>SH462144</zap2it_id>
+    </Series>
+    <Episode>
+        <id>77817</id>
+        <Combined_episodenumber>1</Combined_episodenumber>
+        <Combined_season>1</Combined_season>
+
+        <DVD_chapter></DVD_chapter>
+        <DVD_discid></DVD_discid>
+        <DVD_episodenumber></DVD_episodenumber>
+        <DVD_season></DVD_season>
+        <Director>|David Nutter|</Director>
+        <EpImgFlag>2</EpImgFlag>
+        <EpisodeName>Pilot</EpisodeName>
+
+        <EpisodeNumber>1</EpisodeNumber>
+        <FirstAired>2001-10-16</FirstAired>
+        <GuestStars>Sarah Jane Redmond|Jeremy Creek|Jade Unterman|Malkolm Alburquenque|Matthew Munn|Dee Jay Jackson|Alvin Sanders|Steve Bacic|Justin Chatwin|Wendy Chmelauskas|Ben Odberg|Amy Esterle|Miranda Cosgrove|John Glover</GuestStars>
+        <IMDB_ID></IMDB_ID>
+        <Language>en</Language>
+        <Overview>The first episode tells the story of the meteor shower that hit Smallville and changed life in the Kansas town forever...</Overview>
+
+        <ProductionCode>475165</ProductionCode>
+        <Rating>7.6</Rating>
+        <RatingCount>13</RatingCount>
+        <SeasonNumber>1</SeasonNumber>
+        <Writer>|Alfred Gough|Miles Millar|</Writer>
+        <absolute_number>1</absolute_number>
+
+        <filename>episodes/72218/77817.jpg</filename>
+        <lastupdated>1287306785</lastupdated>
+        <seasonid>3707</seasonid>
+        <seriesid>72218</seriesid>
+    </Episode>
+</Data>

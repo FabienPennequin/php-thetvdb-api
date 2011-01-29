@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Banners>
+    <Banner>
+        <id>490471</id>
+        <BannerPath>fanart/original/72218-82.jpg</BannerPath>
+        <BannerType>fanart</BannerType>
+        <BannerType2>1280x720</BannerType2>
+        <Colors>|11,26,29|183,213,215|10,20,22|</Colors>
+        <Language>en</Language>
+        <Rating>9.0000</Rating>
+        <RatingCount>3</RatingCount>
+        <SeriesName>false</SeriesName>
+        <ThumbnailPath>_cache/fanart/original/72218-82.jpg</ThumbnailPath>
+        <VignettePath>fanart/vignette/72218-82.jpg</VignettePath>
+    </Banner>
+    <Banner>
+        <id>489821</id>
+        <BannerPath>posters/72218-16.jpg</BannerPath>
+        <BannerType>poster</BannerType>
+        <BannerType2>680x1000</BannerType2>
+        <Language>en</Language>
+        <Rating>9.2500</Rating>
+        <RatingCount>4</RatingCount>
+    </Banner>
+    <Banner>
+        <id>487411</id>
+        <BannerPath>seasons/72218-9-5.jpg</BannerPath>
+        <BannerType>season</BannerType>
+        <BannerType2>season</BannerType2>
+        <Language>en</Language>
+        <Rating>10.0000</Rating>
+        <RatingCount>1</RatingCount>
+        <Season>9</Season>
+    </Banner>
+    <Banner>
+        <id>619931</id>
+        <BannerPath>graphical/72218-g22.jpg</BannerPath>
+        <BannerType>series</BannerType>
+        <BannerType2>graphical</BannerType2>
+        <Language>en</Language>
+        <Rating>9.5000</Rating>
+        <RatingCount>2</RatingCount>
+    </Banner>
+</Banners>
