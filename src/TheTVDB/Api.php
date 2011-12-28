@@ -2,7 +2,7 @@
 
 /*
  * This file is part of the TheTVDB.
- * (c) 2010 Fabien Pennequin <fabien@pennequin.me>
+ * (c) 2010-2011 Fabien Pennequin <fabien@pennequin.me>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -10,25 +10,30 @@
 
 namespace TheTVDB;
 
+use TheTVDB\HttpClient\HttpClientInterface;
 use TheTVDB\Model\TvShow;
 use TheTVDB\Model\Episode;
 use TheTVDB\Model\Banner;
 
 class Api
 {
+    protected $httpClient;
+    protected $apiKey;
+
     protected $mirrorUrl = 'http://www.thetvdb.com/';
     protected $baseUrl;
     protected $baseKeyUrl;
     protected $baseImagesUrl;
-    protected $apiKey;
 
-    public function __construct($apiKey, $mirrorUrl=null)
+    public function __construct(HttpClientInterface $httpClient, $apiKey, $mirrorUrl=null)
     {
+        $this->httpClient = $httpClient;
+        $this->apiKey = $apiKey;
+
         if ($mirrorUrl) {
             $this->mirrorUrl = $mirrorUrl;
         }
 
-        $this->apiKey = $apiKey;
         $this->baseUrl = $this->mirrorUrl.'api/';
         $this->baseKeyUrl = $this->baseUrl.$this->apiKey.'/';
         $this->baseImagesUrl = $this->mirrorUrl.'banners/';
@@ -56,7 +61,7 @@ class Api
             $url .= '&language='.urlencode($language);
         }
 
-        $xml = simplexml_load_string($this->getUrlContent($url));
+        $xml = simplexml_load_string($this->httpClient->get($url));
 
         $data = array();
         foreach ($xml as $xmlSerie) {
@@ -69,7 +74,7 @@ class Api
     public function getTvShow($tvshowId, $language='en')
     {
         $url = $this->baseKeyUrl.'series/'.$tvshowId.'/'.$language.'.xml';
-        $xml = simplexml_load_string($this->getUrlContent($url));
+        $xml = simplexml_load_string($this->httpClient->get($url));
 
         return isset($xml->Series) ? $this->xmlToTvShow($xml->Series) : null;
     }
@@ -77,7 +82,7 @@ class Api
     public function getEpisode($episodeId, $language='en')
     {
         $url = $this->baseKeyUrl.'episodes/'.$episodeId.'/'.$language.'.xml';
-        $xml = simplexml_load_string($this->getUrlContent($url));
+        $xml = simplexml_load_string($this->httpClient->get($url));
 
         return isset($xml->Episode) ? $this->xmlToEpisode($xml->Episode) : null;
     }
@@ -85,7 +90,7 @@ class Api
     public function getTvShowAndEpisodes($tvshowId, $language='en')
     {
         $url = $this->baseKeyUrl.'series/'.$tvshowId.'/all/'.$language.'.xml';
-        $xml = simplexml_load_string($this->getUrlContent($url));
+        $xml = simplexml_load_string($this->httpClient->get($url));
 
         if (isset($xml->Series)) {
             $tvshow = $this->xmlToTvShow($xml->Series);
@@ -104,7 +109,7 @@ class Api
     public function getBanners($showId)
     {
         $url = $this->baseKeyUrl.'series/'.$showId.'/banners.xml';
-        $xml = simplexml_load_string($this->getUrlContent($url));
+        $xml = simplexml_load_string($this->httpClient->get($url));
 
         $data = array();
         foreach ($xml as $xmlBanner) {
@@ -112,11 +117,6 @@ class Api
         }
 
         return $data;
-    }
-
-    protected function getUrlContent($url)
-    {
-        return file_get_contents($url);
     }
 
     protected function xmlToTvShow(\SimpleXmlElement $element)
