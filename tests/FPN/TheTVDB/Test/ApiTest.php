@@ -2,17 +2,21 @@
 
 /*
  * This file is part of the TheTVDB.
- * (c) 2010 Fabien Pennequin <fabien@pennequin.me>
+ *
+ * (c) 2010-2012 Fabien Pennequin <fabien@pennequin.me>
+ * (c) 2012 Tobias Sjösten <tobias.sjosten@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-use TheTVDB\Api;
-use TheTVDB\Model\TvShow;
-use TheTVDB\Model\Episode;
-use TheTVDB\Model\Banner;
-use TheTVDB\HttpClient\HttpClientInterface;
+namespace FPN\TheTVDB\Test;
+
+use FPN\TheTVDB\Api;
+use FPN\TheTVDB\Model\TvShow;
+use FPN\TheTVDB\Model\Episode;
+use FPN\TheTVDB\Model\Banner;
+use FPN\TheTVDB\HttpClient\HttpClientInterface;
 
 class MockHttpClient implements HttpClientInterface
 {
@@ -40,11 +44,11 @@ class ApiTest extends \PHPUnit_Framework_TestCase
     public function testConstructor()
     {
         $api = new Api($this->httpClient, uniqid());
-        $this->assertInstanceOf('TheTVDB\Api', $api);
+        $this->assertInstanceOf('FPN\TheTVDB\Api', $api);
 
         $key = uniqid();
         $api = new Api($this->httpClient, $key, 'http://www.test.com/');
-        $this->assertInstanceOf('TheTVDB\Api', $api);
+        $this->assertInstanceOf('FPN\TheTVDB\Api', $api);
         $this->assertEquals('http://www.test.com/', $api->getMirrorUrl());
         $this->assertEquals('http://www.test.com/api/', $api->getBaseUrl());
         $this->assertEquals('http://www.test.com/api/'.$key.'/', $api->getBaseUrlWithKey());
@@ -189,7 +193,7 @@ class ApiTest extends \PHPUnit_Framework_TestCase
 
         $this->httpClient->requestBody = file_get_contents(__DIR__.'/Fixtures/getTvShowAndEpisodes_2.xml');
         $data = $this->api->getTvShowAndEpisodes(72218);
-        $this->assertInstanceOf('TheTVDB\Model\TvShow', $data['tvshow']);
+        $this->assertInstanceOf('FPN\TheTVDB\Model\TvShow', $data['tvshow']);
         $this->assertEquals(5, sizeof($data['episodes']));
     }
 

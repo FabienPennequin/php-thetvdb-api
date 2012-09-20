@@ -1,0 +1,25 @@
+{
+    "name": "fpn/thetvdb",
+    "description": "API client library for TheTVDB.com",
+    "keywords": ["thetvdb.com", "api"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fabien Pennequin",
+            "homepage": "http://www.blogafab.com/"
+        },
+        {
+            "name": "Tobias Sjösten",
+            "email": "tobias.sjosten@gmail.com",
+            "homepage": "http://vvv.tobiassjosten.net/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "FPN\\TheTVDB": "src"
+        }
+    }
+}
