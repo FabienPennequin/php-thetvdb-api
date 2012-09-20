@@ -13,13 +13,13 @@
 >
     <testsuites>
         <testsuite name="TheTVDB Test Suite">
-            <directory>./tests/TheTVDB/</directory>
+            <directory>./tests</directory>
         </testsuite>
     </testsuites>
 
     <filter>
         <whitelist>
-            <directory>./src/TheTVDB/</directory>
+            <directory>./src</directory>
         </whitelist>
     </filter>
 </phpunit>

@@ -2,13 +2,15 @@
 
 /*
  * This file is part of the TheTVDB PHP API package.
- * (c) 2010-2011 Fabien Pennequin <fabien@pennequin.me>
+ *
+ * (c) 2010-2012 Fabien Pennequin <fabien@pennequin.me>
+ * (c) 2012 Tobias Sjösten <tobias.sjosten@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace TheTVDB\HttpClient;
+namespace FPN\TheTVDB\HttpClient;
 
 use Buzz\Browser;
 
